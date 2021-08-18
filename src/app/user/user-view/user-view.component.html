@@ -1,0 +1,4 @@
+<h3>List of Users</h3>
+<div *ngFor="let user of users$ | async; let i=index">
+  <span >{{i+1}}.</span> {{user.name}}
+</div>

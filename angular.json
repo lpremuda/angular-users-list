@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "angular-users-list"
+  "defaultProject": "angular-users-list",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
